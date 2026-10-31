@@ -2,7 +2,7 @@
 
 One ESP8266 (NodeMCU) board with two RFM69 radios that does two jobs:
 
-- **Pool light bridge (915 MHz):** sends and receives the packets of a Spa Electrics pool light remote at 916.02 MHz. It tracks whether the light is on and which colour it's showing, and lets you control it from Home Assistant or a web page.
+- **Pool light bridge (915 MHz):** sends and receives the packets of a Spa Electrics pool light remote at 916.02 MHz. It tracks whether the light is on and which colour it's showing, and lets you control it from the remote, Home Assistant or a web page.
 - **HP1000 weather receiver (433 MHz):** receives the HP1000 / Fine Offset outdoor sensor array (WH24) and indoor sensor (WH25) and publishes the readings to Home Assistant over MQTT.
 
 Both use one WiFi connection and one MQTT broker connection. Home Assistant MQTT discovery sets up all the entities automatically.
